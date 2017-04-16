@@ -12,7 +12,7 @@ Widget::Widget(QWidget *parent,QString myname) :
 
 
 
-    image = new QImage("E:/Qt_code/club_task2/images/"+name+".jpg");
+    image = new QImage(":/myimages/images/"+name+".jpg");
     font = new QFont(name,24,-1,true);
 
 
